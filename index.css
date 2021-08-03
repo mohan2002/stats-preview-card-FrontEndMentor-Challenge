@@ -175,7 +175,7 @@ color: hsl(277, 64%, 61%);
         border-bottom-right-radius:0px ;
     }
     .container{
-        margin-left: -40px;
+        margin-left: -50px;
     }
     .small
     {
@@ -185,6 +185,7 @@ color: hsl(277, 64%, 61%);
         position: absolute;
         bottom: -200px;
     }
+
     }
     
 
