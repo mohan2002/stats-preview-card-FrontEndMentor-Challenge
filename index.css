@@ -95,6 +95,9 @@ color: hsl(277, 64%, 61%);
 }
 
 @media all and (max-width:1130px){
+    body{
+        margin: 0;
+    }
     .Outline{
         display: flex;
         flex-direction: column;
@@ -104,6 +107,7 @@ color: hsl(277, 64%, 61%);
         text-align: center;
         justify-content: center;
         align-items: center;
+        margin-right: 10px;
     }
     img{
         border-top-left-radius:20px ;
@@ -140,17 +144,21 @@ color: hsl(277, 64%, 61%);
         margin-left: 100px;
     }
     .small{
-        margin-left: 90px;
+        margin-left:90px;
     }
 }
 
 @media all and (max-width:500px){
+    body{
+        margin: 0;
+    }
     .Outline{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-right: 10px;
     }
     .small
     {
