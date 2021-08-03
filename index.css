@@ -163,10 +163,12 @@ color: hsl(277, 64%, 61%);
 }
 
 @media all and (max-width:360px){
+    body{
+        margin: 0;
+    }
     .Outline{
-        width: 100%;
+        max-width:100%;
         /* margin-right: 15px; */
-        margin: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
