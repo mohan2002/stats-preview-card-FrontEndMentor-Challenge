@@ -150,7 +150,7 @@ color: hsl(277, 64%, 61%);
     }
     .small
     {
-        margin-left: 70px;
+        margin-left: 50px;
     }
     .container{
         margin-left: -50px;
@@ -161,12 +161,15 @@ color: hsl(277, 64%, 61%);
 @media all and (max-width:380px){
     .Outline{
         width: 100%;
-        margin-right: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .container{
         margin-left: -40px;
+    }
+    .small
+    {
+        margin-left: -10px;
     }
 }
