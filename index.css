@@ -179,9 +179,12 @@ color: hsl(277, 64%, 61%);
     .container{
         margin-left: -50px;
     }
-    .small
+    .data div
     {
-        margin-left: -20px;
+        margin-left: -10px;
+    }
+    .small{
+        margin-left: 20px;
     }
     .attribution{
         position: absolute;
